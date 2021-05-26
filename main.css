@@ -1,5 +1,4 @@
-*,
-html {
+* {
   /* background-color: #000000; */
   padding: 0;
   margin: 0;
@@ -9,22 +8,37 @@ html {
   background-color: #000000 !important;
 }
 
-.material-icons.md-48 {
-  font-size: 48px;
+.bg-grey {
+  background-color: #0c0c0c !important;
 }
 
-.material-icons.white {
+.btn-dark {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+form {
+  border: 1px solid #ffffff;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  padding: 8px 4px 8px 0px;
+}
+
+th {
+  text-align: left;
+  padding: 8px 0px 8px 0px;
+}
+
+input {
+  border: 1px solid #ffffff;
   color: #ffffff;
-}
-
-.social {
-  color: #ffffff !important;
-  height: 90px;
-  width: 90px;
-}
-
-svg {
-  width: 1em;
-  height: 1em;
-  fill: #ffffff;
+  width: 100%;
 }
